@@ -6,8 +6,7 @@
 %
 %    main.m ....... A main script executing experiments upon Matlab accidents data sets.
 %    runEGRNN.p ....... A script implementing the EGRNN model.
-%    sqdist.m ....... A script implementing the distance function.
-%
+%    
 %   --------------------------------------
 %   Note: Required core libraries
 %   --------------------------------------
