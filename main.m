@@ -48,7 +48,7 @@ for m=1:numModels
             Ytrain = Ytrain';
             Xtest = Xtest';
             
-            % runEGRNN(input_train, output_train, input_test, knn_size,flag_norm)
+            % runEGRNN(input_train, output_train, input_test, knn_size)
             % Train the model, knn_size=7 needs to be optimized for your data set
             eval(['Yp = run' METHODS{m} '(Xtrain,Ytrain,Xtest,7);']);
         else
