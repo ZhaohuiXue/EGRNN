@@ -16,7 +16,7 @@
 %   Cite:
 %   --------------------------------------
 %
-%   [1] L. Zhang, Z. Xue, Y. Zhang, J. Ma, H. Li. Enhanced Generalized Regression Neural Network for Soil Moisture Estimation Over the Qinghai-Tibet Plateau[J]. IEEE %   %       Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2022, 15: 3815-3829.
+%   [1] L. Zhang, Z. Xue, Y. Zhang, J. Ma, H. Li. Enhanced Generalized Regression Neural Network for Soil Moisture Estimation Over the Qinghai-Tibet Plateau[J]. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2022, 15: 3815-3829.
 %   --------------------------------------
 %   Copyright & Disclaimer
 %   --------------------------------------
