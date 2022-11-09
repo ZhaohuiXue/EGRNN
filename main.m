@@ -49,8 +49,8 @@ for m=1:numModels
             Xtest = Xtest';
             
             % runEGRNN(input_train, output_train, input_test, knn_size,flag_norm)
-            % Train the model, knn_size=7 needs to be optimized for your data set; flag_norm=1 for normalization, others for not
-            eval(['Yp = run' METHODS{m} '(Xtrain,Ytrain,Xtest,7,1);']);
+            % Train the model, knn_size=7 needs to be optimized for your data set
+            eval(['Yp = run' METHODS{m} '(Xtrain,Ytrain,Xtest,7);']);
         else
             eval(['model = train' METHODS{m} '(Xtrain,Ytrain);']); % Train other model
             eval(['Yp = test' METHODS{m} '(model,Xtest);']);       % Test other model
